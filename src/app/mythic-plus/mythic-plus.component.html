@@ -1,0 +1,21 @@
+<div class="row justify-content-center md-3">
+    <div class="col-md-4 text-center text-white">
+        <h1>Class ranking</h1>
+        <p class="text-info">
+            
+        </p>
+    </div>
+</div>
+
+<div class="container">
+  <div class="row" *ngIf="rankingsData">
+    <div class="col-md-6 mb-3" *ngFor="let role of roles">
+      <div class="card">
+        <div class="card-body  text-white">
+          <h3>{{ role.toUpperCase() }}</h3>
+          <app-rankings [roleData]="rankingsData.rankings[role]"></app-rankings>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

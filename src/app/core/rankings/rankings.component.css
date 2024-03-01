@@ -1,0 +1,198 @@
+li{
+    list-style: none;
+    line-height: 150%!important;
+}
+body {
+    background-color: black;
+    color: white;
+}
+
+.mythic_tiers_section {
+    display: -moz-box;
+    display: flex;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    flex-direction: column;
+    grid-gap: 0.5rem;
+    gap: 0.5rem;
+}
+.mythic_tier_section_element{
+    display: flex;
+    width: 100%;
+    -moz-box-align: stretch;
+    align-items: stretch;
+    grid-gap: 0.25rem;
+    gap: 0.25rem;
+    min-height: 86px;
+}
+.mythic_tier_section_element-heading{
+    display: -moz-box;
+    display: flex;
+    width: 60px;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    flex-direction: column;
+    -moz-box-pack: center;
+    justify-content: center;
+    -moz-box-align: center;
+    align-items: center;
+    border-radius: 0.25rem;
+    color: white;
+}
+
+.mythic_tier_spec{
+    margin: 0;
+    display: -moz-box;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 14px;
+    -moz-box-align: center;
+    align-items: center;
+    grid-gap: 18px;
+    gap: 18px;
+    -moz-box-flex: 1;
+    flex: 1 0;
+    align-self: stretch;
+    border-radius: 0.25rem;
+    border: 1px solid #242424;
+    background: -moz-linear-gradient(310deg,#060606 0,#141414 100%);
+    background: linear-gradient(140deg,#060606,#141414);
+}
+
+.class-img{
+    border-radius: 50%;
+}
+
+.S_Tier{
+    background-color: #ff8000!important;
+}
+
+.A_Tier{
+    background-color: #a335ee!important
+}
+
+.B_Tier{
+    background-color: #0070ff!important
+}
+
+.C_Tier{
+    background-color: #328135!important;
+}
+
+.D_Tier{
+    background-color: #696c69!important;
+}
+
+.F_Tier{
+    background-color: #272525!important;
+}
+
+
+.DeathKnight-Frost,
+.DeathKnight-Unholy,
+.DeathKnight-Blood {
+    background-color: #C41F3B;
+    padding: 3px;
+    border-radius: 50%;
+    border-style: double;
+}
+
+.DemonHunter-Havoc,
+.DemonHunter-Vengeance {
+    background-color: #A330C9;
+    padding: 3px;
+    border-radius: 50%;
+    border-style: double;
+}
+
+.Druid-Restoration,
+.Druid-Feral,
+.Druid-Balance,
+.Druid-Guardian {
+    background-color: #FF7D0A;
+    padding: 3px;
+    border-radius: 50%;
+    border-style: double;
+}
+
+.Hunter-Survival,
+.Hunter-BeastMastery,
+.Hunter-Marksmanship {
+    background-color: #ABD473;
+    padding: 3px;
+    border-radius: 50%;
+    border-style: double;
+}
+
+.Mage-Frost,
+.Mage-Fire,
+.Mage-Arcane {
+    background-color: #69CCF0;
+    padding: 3px;
+    border-radius: 50%;
+    border-style: double;
+}
+
+.Monk-Brewmaster,
+.Monk-Mistweaver,
+.Monk-Windwalker {
+    background-color: #00FF96;
+    padding: 3px;
+    border-radius: 50%;
+    border-style: double;
+}
+
+.Paladin-Protection,
+.Paladin-Holy,
+.Paladin-Retribution {
+    background-color: #F58CBA;
+    padding: 3px;
+    border-radius: 50%;
+    border-style: double;
+}
+
+.Priest-Shadow,
+.Priest-Discipline,
+.Priest-Holy {
+    background-color: #FFFFFF;
+    padding: 3px;
+    border-radius: 50%;
+    border-style: double;
+}
+
+.Rogue-Outlaw,
+.Rogue-Subtlety,
+.Rogue-Assassination {
+    background-color: #FFF569;
+    padding: 3px;
+    border-radius: 50%;
+    border-style: double;
+}
+
+.Shaman-Elemental,
+.Shaman-Restoration,
+.Shaman-Enhancement {
+    background-color: #0070DE;
+    padding: 3px;
+    border-radius: 50%;
+    border-style: double;
+}
+
+.Warlock-Demonology,
+.Warlock-Destruction,
+.Warlock-Affliction {
+    background-color: #9482C9;
+    padding: 3px;
+    border-radius: 50%;
+    border-style: double;
+}
+
+.Warrior-Protection,
+.Warrior-Fury,
+.Warrior-Arms {
+    background-color: #C79C6E;
+    padding: 3px;
+    border-radius: 50%;
+    border-style: double;
+}
+

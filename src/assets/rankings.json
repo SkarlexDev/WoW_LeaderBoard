@@ -1,0 +1,213 @@
+{
+    "rankings": {
+      "tank": {
+        "S": [
+          { 
+            "name": "Vengeance DemonHunter",
+            "code": "DemonHunter-Vengeance"
+          },
+          { 
+            "name": "Protection Paladin",
+            "code": "Paladin-Protection"
+          }
+        ],
+        "A": [],
+        "B": [
+          { 
+            "name": "Blood DeathKnight",
+            "code": "DeathKnight-Blood"
+          }
+        ],
+        "C": [
+          {
+            "name": "Guardian Druid",
+            "code": "Druid-Guardian"
+          }
+        ],
+        "D": [
+          { 
+            "name": "Brewmaster Monk",
+            "code": "Monk-Brewmaster"
+          },
+          {
+            "name": "Protection Warrior",
+            "code": "Warrior-Protection"
+          }
+        ],
+        "F": []
+      },
+      "heal": {
+        "S": [],
+        "A": [
+          {             
+            "name": "Mistweaver Monk",
+            "code": "Monk-Mistweaver"
+          },
+          { 
+            "name": "Restoration Druid",
+            "code": "Druid-Restoration"
+          },
+          {
+            "name": "Discipline Priest",
+            "code": "Priest-Discipline"            
+          }          
+          ],
+        "B": [
+          {
+          "name": "Preservation Evoker",
+          "code": "Evoker-Preservation"            
+          },
+          {
+            "name": "Holy Paladin",
+            "code": "Paladin-Holy"            
+          }   
+        ],
+        "C": [],
+        "D": [
+          {
+            "name": "Holy Priest",
+            "code": "Priest-Holy"            
+          }
+        ],
+        "F": [  
+          {
+            "name": "Restoration Shaman",
+            "code": "Shaman-Restoration"            
+          }                  
+        ]
+      },
+      "mdps": {
+        "S": [
+          {
+            "name": "Retribution Paladin",
+            "code": "Paladin-Retribution"
+          },
+          {
+            "name": "Outlaw Rogue",
+            "code": "Rogue-Outlaw"
+          },
+          {
+            "name": "Feral Druid",
+            "code": "Druid-Feral"
+          }
+        ],
+        "A": [
+          {
+            "name": "Havoc DemonHunter",
+            "code": "DemonHunter-Havoc"
+          }
+        ],
+        "B": [
+          {
+            "name": "Fury Warrior",
+            "code": "Warrior-Fury"
+          },
+          {
+            "name": "Arms Warrior",
+            "code": "Warrior-Arms"
+          }
+        ],
+        "C": [
+          {
+            "name": "Survival Hunter",
+            "code": "Hunter-Survival"
+          }
+        ],
+        "D": [
+          {
+            "name": "Windwalker Monk",
+            "code": "Monk-Windwalker"
+          },
+          {
+            "name": "Subtlety Rogue",
+            "code": "Rogue-Subtlety"
+          },
+          {
+            "name": "Assassination Rogue",
+            "code": "Rogue-Assassination"            
+          }
+        ],
+        "F": [
+          {
+            "name": "Unholy DeathKnight",
+            "code": "DeathKnight-Unholy"
+          },
+          {
+            "name": "Frost DeathKnight",
+            "code": "DeathKnight-Frost"
+          },
+          {
+            "name": "Enhancement Shaman",
+            "code": "Shaman-Enhancement"
+          }
+        ]
+      },
+      "rpds": {
+        "S": [
+          {
+            "name": "Fire Mage",
+            "code": "Mage-Fire"
+          },
+          {
+            "name": "Augmentation Evoker",
+            "code": "Evoker-Augmentation"
+          },
+          {
+            "name": "Shadow Priest",
+            "code": "Priest-Shadow"
+          }
+        ],
+        "A": [
+          {
+            "name": "Arcane Mage",
+            "code": "Mage-Arcane"
+          }
+        ],
+        "B": [
+          {
+            "name" : "Balance Druid",
+            "code" : "Druid-Balance"
+          },
+          {
+            "name" : "Demonology Warlock",
+            "code" : "Warlock-Demonology"
+          },
+          {
+            "name": "Destruction Warlock",
+            "code": "Warlock-Destruction"
+          }
+        ],
+        "C": [
+          {
+            "name": "BeastMastery Hunter",
+            "code": "Hunter-BeastMastery"
+          },
+          {
+            "name": "Marksmanship Hunter",
+            "code": "Hunter-Marksmanship"
+          }
+        ],
+        "D": [
+          {
+            "name": "Devastation Evoker",
+            "code": "Evoker-Devastation"
+          }
+        ],
+        "F": [
+          {
+            "name": "Elemental Shaman",
+            "code": "Shaman-Elemental"
+          },
+          {
+            "name": "Affliction Warlock",
+            "code": "Warlock-Affliction"
+          },
+          {
+            "name": "Frost Mage",
+            "code": "Mage-Frost"
+          }
+        ]
+      }      
+    }
+  }
+  

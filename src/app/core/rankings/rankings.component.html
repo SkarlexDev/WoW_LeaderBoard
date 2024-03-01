@@ -1,0 +1,20 @@
+<div class="container" style="padding: 0px;">
+  <div class="mythic_tiers_section" *ngFor="let spec of roleData | sortByKeys">
+      <div class="mythic_tier_section_element">
+          <div class="mythic_tier_section_element-heading {{ spec }}_Tier">
+              <h3>{{ spec }}</h3>
+          </div>
+          <ul class="mythic_tier_spec">
+            <div *ngFor="let classData of roleData[spec]" class="{{classData.code}}">                  
+              <li title="{{classData.name}}">
+                  <a href="/mplus/{{classData.code}}">
+                      <div>
+                          <div style="display: inline-block;"><span><img class="class-img" src="https://assets.rpglogs.com/img/warcraft/icons/large/{{classData.code}}.jpg" alt="{{classData.name}}" loading="lazy"></span></div>
+                      </div>
+                  </a>
+              </li>
+            </div>              
+          </ul>
+      </div>
+    </div>
+</div>

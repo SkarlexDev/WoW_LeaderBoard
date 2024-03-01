@@ -1,0 +1,10 @@
+.card{
+    background-color: black;
+    border-color: white;   
+    box-shadow: 3px 3px 5px 1px rgba(182, 182, 182, 0.41);
+    padding: 0px;
+}
+
+.card-body{
+    padding: 5px;
+}
